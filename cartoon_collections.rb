@@ -23,8 +23,7 @@ def find_the_cheese(arr)# code an argument here
   arr.collect do |item|
     if cheese_types.include?(item)
       return item
-    else
-      return nil
     end
+    return nil
   end
 end
