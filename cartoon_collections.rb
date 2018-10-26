@@ -10,7 +10,7 @@ def summon_captain_planet(planeteer_calls)# code an argument here
   planeteer_calls.collect do |call|
     arr = call.split('')
     arr[0].upcase
-    arr.join('') + "!"
+    loud_call = arr.join('') + "!"
   end
 end
 
